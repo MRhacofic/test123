@@ -1,59 +1,26 @@
 {
-  "packages":
-  [
+  "packages": [
     {
       "name": "KeYHarPon",
       "maintainer": "QuackTech Org.",
       "websiteURL": "https://quacktech.tech",
-      "email" : "contact-quacktech@proton.me",
-      "platforms":
-      [
+      "email": "contact-quacktech@proton.me",
+      "platforms": [
         {
           "name": "KeyHarpoon Board",
           "architecture": "avr",
           "version": "1.8.6",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/MRhacofic/test123/main/Keyharpoon-1.8.6.zip",
-          "archiveFileName": "KeyHarpoonV1.zip",
-          "checksum": "SHA-256:B025019FBB8FF2A04865CDA566C0C4636CE4CA37348617390B9249F341ECDD02",
-          "size": "8195977",
+          "url": "https://github.com/MRhacofic/test123/blob/main/Keyharpoon-1.8.6.zip",
+          "archiveFileName": "Keyharpoon-1.8.6.zip",
+          "checksum": "SHA-256:B0B6EFB3D515DC33719F10B80C83100A67493961B21239653A3FE6220E0C5675",
+          "size": "17863614",
           "boards": [
             {
               "name": "KeyHarpoon V.1"
             }
-          ],
-          "toolsDependencies":
-          [
-            {
-              "packager": "arduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "7-2017q4"
-            },
-            {
-              "packager": "arduino",
-              "name": "bossac",
-              "version": "1.8.0-48-gb176eee"
-            },
-            {
-              "packager": "arduino",
-              "name": "openocd",
-              "version": "0.10.0-arduino9"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "4.5.0"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS-Atmel",
-              "version": "1.2.0"
-            }
           ]
         }
-      ],
-      "tools":
-      [
       ]
     }
   ]
